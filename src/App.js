@@ -21,19 +21,19 @@ export default function App() {
     backgroundColor: "black",
     color: "white",
     "&:hover": {
-      backgroundColor: "grey",
-      color: "black"
+      backgroundColor: "black",
+      color: "white"
     },
     "&:disabled": {
-      backgroundColor: "blue"
+      backgroundColor: "grey",
+      color: "white"
     }
   });
 
   return (
     <>
       <Box>
-        <h2>Navbar</h2>
-        <MyBtn disabled>click here</MyBtn>
+        <MyBtn>Logo</MyBtn>
         {/* <Button
           variant="contained"
           sx={{
